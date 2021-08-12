@@ -1,7 +1,7 @@
 ---
-title: "What_is_the_deal_chicken_breast"
+title: "What is the Deal?: Chicken Breast"
 date: 2021-08-11T16:19:04-07:00
-draft: true
+type: blogs
 ---
 > You can do ANYTHING with chicken breast except undercook it.  
   

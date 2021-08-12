@@ -1,7 +1,7 @@
 ---
 title: "Sarap or Basura: Fresheria"
 date: 2021-08-11T15:25:19-07:00
-draft: true
+type: blogs
 ---
 > It's important to *try* to be healthy!  
   

@@ -1,7 +1,7 @@
 ---
 title: "Sarap or Basura: Dave's Hot Chicken"
 date: 2021-08-11T16:28:06-07:00
-draft: true
+type: blogs
 ---
 > It's hard to be so disappointed in chicken tenders, but we have to be fair!  
   

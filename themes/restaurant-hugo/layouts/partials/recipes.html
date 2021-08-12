@@ -18,7 +18,7 @@
 							<li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
 								<div class="item">
 									<div class="item-title">
-										<h2><a href="{{ .Permalink }}">{{.title}}</h2>
+										<h2>{{.title}}</h2>
 										<div class="border-bottom"></div>
 										<span>{{.price}}</span>
 									</div>
@@ -31,35 +31,36 @@
 				</div>
 			</div> .col-md-12 close 
 		</div> .row close 
-	</div> .containe close 
+	</div> .containe close
 </section> #price close 
 {{end}}
 {{end}} -->
 
 {{ if site.Data.homepage.blog.enable}}
-<section id="blog" {{ if site.Data.homepage.blog.overlay }} class="overlay" {{ end }}
+<section id="blog" {{ if site.Data.homepage.blog.overlay }} {{ end }}
 	style="background-image: url('{{ site.Data.homepage.blog.bg_image | absURL }}');">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block">
-					<h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1>
+					<!-- <h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1> -->
+					<h1 class="heading">Recipes</h1>
 					{{ $paginator := .Paginate site.RegularPages }}
-					{{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections) }}
+					{{ range first 3 (where .Site.Pages "Params.type" "recipes") }}
 					<div class="col-lg-6">
 						<article class="post wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+							<div class="post-content">
+								<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+								<p>{{ .Summary }}</p>
+							</div>
 							<div class="post-img">
 								<img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-responsive">
-							</div>
-							<div class="post-content">
-								<h3><a href="{{ .Permalink }}"></a>{{ .Title }}</h3>
-								<p>{{ .Summary }}</p>
 							</div>
 						</article>
 					</div>
 					{{ end }}
 					<div class="text-center">
-						<a href="/post" class="btn btn-default">All Post</a>
+						<a href="/recipes" class="btn btn-default">All Recipes</a>
 					</div>
 				</div>
 			</div>

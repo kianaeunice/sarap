@@ -1,7 +1,7 @@
 ---
 title: "What's The Deal?: Oat Milk"
 date: 2021-08-11T15:08:35-07:00
-draft: true
+type: blogs
 ---
 > This one's for the lactose intolerant baddies. Hope to shine the light on some goodness for our tummies.  
   

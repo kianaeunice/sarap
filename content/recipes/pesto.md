@@ -3,7 +3,7 @@ title: "Draft Recipe: Pesto Pasta"
 date: 2021-07-17T22:15:00-07:00
 description: "testing description"
 image: images/blog/pesto.jpg
-type: post
+type: recipes
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro modi delectus rerum, sed blanditiis eaque eum, ex et officia veritatis id hic.
 

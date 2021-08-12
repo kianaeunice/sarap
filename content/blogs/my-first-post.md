@@ -1,7 +1,7 @@
 ---
 title: "My First Blog Post!"
 date: 2021-08-11T14:51:36-07:00
-draft: true
+type: blogs
 ---
 > I have always wanted to create my own blog. With this class, I finally have the push to make it possible!  
 Hi everyone! I hope you are all doing alright today. Although this blog post isn't much, I wanted to take the opportunity to actually say hello to anyone who might be reading this.  

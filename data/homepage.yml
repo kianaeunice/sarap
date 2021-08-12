@@ -9,14 +9,17 @@ gallery:
   enable : true
   title : "FEATURED WORKS"
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-1.jpeg"
+    - "images/slider/slider-img-2.jpeg"
+    - "images/slider/slider-img-3.jpeg"
     - "images/slider/slider-img-4.jpeg"
     - "images/slider/slider-img-5.jpeg"
     - "images/slider/slider-img-6.jpeg"
     - "images/slider/slider-img-7.jpeg"
     - "images/slider/slider-img-8.jpeg"
+    - "images/slider/slider-img-9.jpeg"
+    - "images/slider/slider-img-10.jpeg"
+    - "images/slider/slider-img-11.jpeg"
 
 ################ About #######################
 about:

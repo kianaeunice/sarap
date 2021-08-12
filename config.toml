@@ -56,31 +56,27 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Price"
+name = "Recipes"
 URL = "price"
 weight = 4
 
 [[menu.main]]
-name = "News"
+name = "Subscribe"
 URL = "subscribe"
 weight = 5
 
-[[menu.main]]
-name = "Contact Us"
-URL = "contact-us"
-weight = 6
 
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/sarap-logo.png"
 # meta data
 author = "Themefisher"
 description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # mainSections
-main_sections = ["post"]
+main_sections = ["blogs", "recipes"]
 # copyright
 copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
@@ -99,52 +95,42 @@ socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
-icon = "fa fa-phone"
-content = "016742 323313"
-
-[[params.footer.contactItem]]
-title="Address"
-icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
-
-[[params.footer.contactItem]]
-title="E mail"
+title="Email"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "kiana.florendo@gmail.com"
 
 ######################### footer gallery
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/slider-img-1.jpeg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/slider-img-2.jpeg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
+image = "images/slider/slider-img-3.jpeg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+image = "images/slider/slider-img-4.jpeg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+image = "images/slider/slider-img-5.jpeg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+image = "images/slider/slider-img-6.jpeg"
 
 ######################## Social Icon 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
+link = "https://www.facebook.com/kianaflorendo/"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
+link = "https://twitter.com/kianaeunice_"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
+link = "https://www.instagram.com/kianaeunice_/"
+
+[[params.footer.socialLink]]
+icon = "linkedin"
+link = "https://www.linkedin.com/in/kianaflorendo/"
