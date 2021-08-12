@@ -1,7 +1,7 @@
 ################## Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/header.jpg"
+  bg_image : "images/headerDraft.jpg"
   overlay : true
 
 ################### Gallery ###################
@@ -12,23 +12,23 @@ gallery:
     - "images/slider/slider-img-1.jpg"
     - "images/slider/slider-img-2.jpg"
     - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-4.jpeg"
+    - "images/slider/slider-img-5.jpeg"
+    - "images/slider/slider-img-6.jpeg"
+    - "images/slider/slider-img-7.jpeg"
+    - "images/slider/slider-img-8.jpeg"
 
 ################ About #######################
 about:
   enable : true
-  image : "images/cooker-img.png"
-  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  image : "images/aboutMe.png"
+  title : "Welcome to my Online Cookbook! (Sort of..)"
+  description : "It would be a shame to hide all the wonderous things I have learned from family and friends. With this website, I shall share many of the recipes to all of you!"
   
 ################# Blog ######################
 blog:
   enable : true
-  title : "Our Latest <span>Blog</span>"
+  title : "Blogs"
   bg_image : "images/blog/blog-bg.jpg"
   overlay : true
 
@@ -36,36 +36,36 @@ blog:
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
+  title : "Recipes"
+  
+  subtitle : "RECENTLY UPLOADED RECIPES"
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+  - title: "Easy Pesto Pasta"
+    description: "A quick and easy pesto-y pasta to create when you're short on time."
+    # price : "$ 125.00"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+  - title: "Kare Kare"
+    description: "A unique, savory dish for all the peanut butter lovers out there!"
+    # price : "$ 100.00"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+  - title: "Filipino Spaghetti"
+    description: "Hotdogs in spaghetti are the only way to have this mouthwatering dish."
+    # price : "$ 20.00"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
+  - title: "Grilled Cheese (with a twist)"
+    description: "A quick and easy sandwich that makes you wanting more."
+    # price : "$ 45.00"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
+  - title: "Brian's Guacamole"
+    description: "A great side dish for tortilla chips, tortillas, or even pita bread!"
+    # price : "$ 25.00"
 
 ################### Subscription ################
 subscription:
   enable : true
   bg_image : "images/subscribe-bg.jpg"
-  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  title : "Subscribe to our <span>Blogs!<span>"
+  description : "Never miss what's on my mind."
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
@@ -74,6 +74,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable : true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  title: "Contact <span>Us!<span>"
+  # subtitle: "SIGN UP FOR EMAIL ALERTS"
   form_action : "#" #contact form works with formspree.io
